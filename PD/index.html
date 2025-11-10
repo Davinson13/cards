@@ -1,50 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- Metadata and document setup -->
-  <meta charset="UTF-8"> <!-- Defines the character encoding -->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Ensures responsive design on mobile devices -->
-  <title>Diagnostic Test</title> <!-- Page title shown in the browser tab -->
-  <link rel="stylesheet" href="style.css"> <!-- Link to the external CSS stylesheet -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Diagnostic Test</title>
+  <!-- Link to the external CSS stylesheet (missing, recreate it as "style.css") -->
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- Cards Section -->
-  <div class="container">
+  <!-- ========================================================= -->
+  <!-- CARD SECTION -->
+  <!-- This container holds all the individual cards (offers). -->
+  <!-- Each card represents a type of offer with a title, image, and description. -->
+  <!-- ========================================================= -->
+  <div class="contenedor">
       
-      <!-- Card 1 -->
-      <div class="card">
-          <h2 class="title">Basic Offer</h2>
-              <div class="body">
-                  <img src="image1.jpg" alt="sample"> <!-- Sample image for the first card -->
-                  <p>Landscape 1</p>
-              </div>
-              <div class="footer">
-                  This is the test of the image for landscape 1.
-                  <p>With additional information related to this same image, let's say.</p>
-              </div>
+      <!-- ======================= -->
+      <!-- FIRST CARD: BASIC OFFER -->
+      <!-- ======================= -->
+      <div class="tarjeta">
+          <!-- Title of the card -->
+          <h2 class="titulo">Basic Offer</h2>
+
+          <!-- Card body: includes the image and a short caption -->
+          <div class="cuerpo">
+              <!-- Replace 'image1.jpg' with your own image path -->
+              <img src="image1.jpg" alt="sample">
+              <p>Landscape 1</p>
+          </div>
+
+          <!-- Card footer: contains additional text or description -->
+          <div class="pie">
+              This is the test for the image of landscape 1.
+              <p>With information related to this same image, for example.</p>
+          </div>
       </div>
 
-      <!-- Card 2 -->
-      <div class="card">
-          <h2 class="title">Standard Offer</h2>
-              <div class="body">
-                  <img src="image2.jpg" alt="sample"> <!-- Sample image for the second card -->
-                  <p>Landscape 2</p>
-              </div>
-              <div class="footer">
-                  This is the test of the image for landscape 2.
-                  <p>With additional information related to this same image, let's say.</p>
-              </div>
+      <!-- ============================ -->
+      <!-- SECOND CARD: STANDARD OFFER -->
+      <!-- ============================ -->
+      <div class="tarjeta">
+          <h2 class="titulo">Standard Offer</h2>
+
+          <div class="cuerpo">
+              <!-- Replace 'image2.jpg' with your own image path -->
+              <img src="image2.jpg" alt="sample">
+              <p>Landscape 2</p>
+          </div>
+
+          <div class="pie">
+              This is the test for the image of landscape 2.
+              <p>With information related to this same image, for example.</p>
+          </div>
       </div>
 
   </div>
 
-  <!-- JavaScript file for functionality (if needed) -->
+  <!-- ========================================================= -->
+  <!-- JAVASCRIPT SECTION -->
+  <!-- The external JS file can be used to add interaction to the cards -->
+  <!-- For example: hover effects, dynamic content loading, animations, etc. -->
+  <!-- ========================================================= -->
   <script src="script.js"></script>
 </body>
 </html>
 
-  <script src="script.js"></script>
-</body>
 
-</html>
